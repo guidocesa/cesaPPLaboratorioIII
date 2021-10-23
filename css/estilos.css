@@ -1,0 +1,84 @@
+.grilla {
+    border: solid 5px black;
+    width: 30%;
+  }
+  
+  .grilla th {
+    border-right: solid 4px black;
+    border-bottom: solid 5px black;
+    width: 100px;
+    text-align: center;
+    padding: 5px;
+  }
+  
+  .grilla td {
+    border-right: solid 4px black;
+    border-bottom: solid 1px black;
+    padding: 5px;
+  }
+  
+  .tabla {
+    border-collapse: collapse;
+    text-align: center;
+    margin: 20px;
+    margin: auto;
+  }
+  
+  .closeButton {
+    max-width: 30px;
+    max-height: 30px;
+    background-color: red;
+    color: white;
+    float: right;
+    margin-bottom: 10px;
+  }
+  
+  .validate-wrong {
+    border: solid 1px red;
+  }
+  
+  .spinner {
+    position: absolute;
+    z-index: 11;
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    opacity: 30%;
+    border: 16px solid #f3f3f3;
+    border-top: 16px solid grey;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    animation: spin 2s linear infinite;
+  }
+  
+  #divSpinner {
+    margin: auto;
+  }
+  
+  #divFlex {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    position: relative;
+  }
+  
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
+  .botonModificar {
+      display: flex;
+      margin: 20px;
+      justify-content: center;
+      align-self: center;
+      background-color: chartreuse;
+  }
